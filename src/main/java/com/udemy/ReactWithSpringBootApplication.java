@@ -9,9 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.udemy.config.FileStorageConfig;
 
 @SpringBootApplication
-@EnableConfigurationProperties({
-	FileStorageConfig.class
-})
+@EnableConfigurationProperties({FileStorageConfig.class})
 @EnableAutoConfiguration
 @ComponentScan
 public class ReactWithSpringBootApplication {
